@@ -60,11 +60,7 @@ width: 58%;
 /*    box-shadow: 0 5px 15px rgb(255, 255, 255);*/
 /*}*/
 
-#kontakt{
-    padding: 20px;
-    text-align: center;
 
-}
 
 @media screen and (max-width: 600px) {
 
@@ -93,10 +89,6 @@ width: 58%;
         width: 80%;
         height: 50%;
     }
-    .btn{
-
-
-    }
 
 
 }
@@ -106,6 +98,7 @@ width: 58%;
     color: white;
     text-align: center;
     display: grid;
+    padding: 20px;
 
 }
 
