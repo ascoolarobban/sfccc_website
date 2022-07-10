@@ -101,3 +101,11 @@ width: 58%;
 
 }
 
+#kontakt{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    display: grid;
+
+}
+
