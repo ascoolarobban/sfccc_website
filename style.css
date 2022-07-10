@@ -54,11 +54,11 @@ width: 58%;
     transition: all 0.2s ease-in-out;
 }
 
-.btn:hover {
-    background-color: black;
-    color: ghostwhite;
-    box-shadow: 0 5px 15px rgb(255, 255, 255);
-}
+/*.btn:hover {*/
+/*    background-color: black;*/
+/*    color: ghostwhite;*/
+/*    box-shadow: 0 5px 15px rgb(255, 255, 255);*/
+/*}*/
 
 #kontakt{
     padding: 20px;
