@@ -1,0 +1,103 @@
+
+
+body {
+    background-color: black;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.logoChild{
+    -webkit-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0));
+    filter: drop-shadow(16px 16px 16px rgb(255, 255, 255));
+}
+
+/* Make the image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#mc_embed_signup input.email {
+...
+width: 100%;
+...
+}
+
+#mc_embed_signup form {
+...
+width: 58%;
+    margin: auto;
+}
+
+
+/* Style the button and place it in the middle of the container/image */
+.btn {
+    position: absolute;
+    top: 680px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    padding: 22px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: ghostwhite;
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+
+#kontakt{
+    padding: 20px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+        background-image: url("bgmobile.jpeg");
+        background-size: auto;
+
+
+
+    }
+    .container {
+        width: 100%;
+
+
+    }
+    .logoChild{
+        position: center;
+        width: 100%;
+        -webkit-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0));
+        filter: drop-shadow(6px 6px 6px rgba(255, 255, 255, 0.15));
+    }
+
+    #mc_embed_signup{
+        width: 80%;
+        height: 50%;
+    }
+    .btn{
+
+
+    }
+
+
+}
+
