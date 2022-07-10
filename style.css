@@ -66,38 +66,4 @@ width: 58%;
 
 }
 
-@media screen and (max-width: 600px) {
-
-    body{
-        max-width: 100%;
-        overflow-x: hidden;
-        background-image: url("bgmobile.jpeg");
-        background-size: auto;
-
-
-
-    }
-    .container {
-        width: 100%;
-
-
-    }
-    .logoChild{
-        position: center;
-        width: 100%;
-        -webkit-filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0));
-        filter: drop-shadow(6px 6px 6px rgba(255, 255, 255, 0.15));
-    }
-
-    #mc_embed_signup{
-        width: 80%;
-        height: 50%;
-    }
-    .btn{
-
-
-    }
-
-
-}
 
